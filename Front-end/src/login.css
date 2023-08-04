@@ -1,12 +1,23 @@
 *{
     margin: 0;
 padding: 0;
+
 }
 .form_container{
     width: 30%;
     border-radius:8%;
+box-shadow: 10px 8px 100px 8px rgb(179, 136, 10);
+border: 3px solid rgb(127, 122, 109);
 
+}
 
+.for_details{
+border: none;
+border-bottom: 1px solid #ccb012;
+padding-top: 10px;
+outline: none;
+height: 40px;
+font-size: 14.5px;
 }
 
 .video-fondo{
@@ -27,17 +38,22 @@ video{
     top: 0;
 
 }
+.texto-titulo{
+    color: #76756cbd;
+}
 
 .btn-bg{
-    background-color: rgba(50, 184, 50, 0.678);
+    background-color: #E5890A;
     border: none;
     border-radius: 20px;
-    box-shadow: 1px 2px 2px 2px rgb(86, 90, 86);
+    box-shadow: 3px 3px 10px 2px #a8680e;
+    padding: 5.5px;
 }
 
 .link_color{
 font-weight: bold;
-    color: rgb(74, 147, 74);
+    color: rgb(181, 144, 34);
+    outline: none;
     font-size: 0.8em;
 }
 

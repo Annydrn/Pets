@@ -13,21 +13,23 @@ const Login = () => {
       <div className="login template d-flex justify-content-center align-items-center vh-100 ">
         <div className="form_container p-5  bg-white">
           <form>
-            <h3 className="text-center">Ingresa a tu cuenta</h3>
+            <h3 className="text-center mb-4 texto-titulo">¡Bienvenido!</h3>
             <div className="mb-2">
               <label htmlFor="email"> Email</label>
+              <br />
               <input
                 type="email"
                 placeholder="Escribe tu Email"
-                className="form-control"
+                className="for_details"
               />
             </div>
             <div className="mb-2">
               <label htmlFor="password"> Contraseña</label>
+              <br />
               <input
                 type="password"
                 placeholder="Escribe tu contraseña"
-                className="form-control"
+                className="for_details"
               />
             </div>
             <div className="mb-2">
